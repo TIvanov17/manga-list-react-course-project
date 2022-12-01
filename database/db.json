@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "currentRank": 0,
+      "username": "tivanov12",
+      "averageScore": 0,
+      "firstName": "Tsvetan",
+      "lastName": "Ivanov",
+      "email": "t@g",
+      "password": "123",
+      "photo": "https://picsum.photos/200/300?random=1",
+      "date": "",
+      "isAdmin": true
+    },
+    {
+      "currentRank": 0,
+      "username": "ggg2",
+      "averageScore": 0,
+      "firstName": "Georgi",
+      "lastName": "Ivanov",
+      "email": "c@abv.bg",
+      "password": "123",
+      "photo": "https://picsum.photos/200/300?random=2",
+      "date": "11/8/2022, 11:59:43 AM",
+      "isAdmin": false,
+      "id": 2
+    },
+    {
+      "username": "newUser1",
+      "firstName": "New",
+      "lastName": "User",
+      "email": "new_user@abv.bg",
+      "password": "123",
+      "photo": "https://picsum.photos/200/300?random=0.45082226152282423",
+      "date": "12/2/2022, 1:20:35 AM",
+      "isAdmin": false,
+      "id": 3
+    }
+  ],
+  "manga": [
+    {
+      "id": 1,
+      "mangaRank": 0,
+      "title": "Berserk",
+      "author": "Kentaro Miura",
+      "chapters": 5,
+      "volumes": 1,
+      "readers": 3,
+      "genres:": "Action",
+      "summary": "Guts, a former mercenary now known as the Black Swordsman",
+      "status": "Publishing",
+      "published:": "Aug 25, 1989",
+      "photo": "https://cdn.myanimelist.net/images/manga/1/157897l.jpg",
+      "genres": "action",
+      "score": 3
+    },
+    {
+      "mangaRank": 0,
+      "title": "One Piece",
+      "author": "Eiichiro Oda",
+      "chapters": 6,
+      "volumes": 2,
+      "readers": 3,
+      "genres": "Adventure",
+      "summary": "Gol D. Roger, a man referred to as the \"Pirate King,\" is set to be executed by the World Government.",
+      "status": "Publishing",
+      "published": "Jul 22, 1997",
+      "photo": "https://cdn.myanimelist.net/images/manga/2/253146.jpg",
+      "id": 3,
+      "score": 3.5
+    }
+  ],
+  "user-read-manga": [
+    {
+      "userId": 2,
+      "mangaId": 1,
+      "title": "Berserk",
+      "photo": "https://cdn.myanimelist.net/images/manga/1/157897l.jpg",
+      "readingStatus": "Reading",
+      "userScore": 3,
+      "readingChapters": 4,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "mangaId": 1,
+      "title": "Berserk",
+      "photo": "https://cdn.myanimelist.net/images/manga/1/157897l.jpg",
+      "readingStatus": "Reading",
+      "userScore": 3,
+      "readingChapters": 2,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "mangaId": 3,
+      "title": "One Piece",
+      "photo": "https://cdn.myanimelist.net/images/manga/2/253146.jpg",
+      "readingStatus": "Reading",
+      "userScore": 2,
+      "readingChapters": 0,
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "mangaId": 3,
+      "title": "One Piece",
+      "photo": "https://cdn.myanimelist.net/images/manga/2/253146.jpg",
+      "readingStatus": "Completed",
+      "userScore": 5,
+      "readingChapters": 1,
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "mangaId": 1,
+      "title": "Berserk",
+      "photo": "https://cdn.myanimelist.net/images/manga/1/157897l.jpg",
+      "readingStatus": "Reading",
+      "userScore": 0,
+      "readingChapters": 0,
+      "id": 5
+    }
+  ],
+  "review": [
+    {
+      "id": 1,
+      "userId": 1,
+      "mangaId": 2,
+      "opinion": "I really like the manga!"
+    },
+    {
+      "userId": 1,
+      "mangaId": 1,
+      "opinion": "I really like the manga",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "mangaId": 1,
+      "opinion": "Cool",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "mangaId": 3,
+      "opinion": "dsa",
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "mangaId": 3,
+      "opinion": "It is amazing !",
+      "id": 5
+    }
+  ]
+}
